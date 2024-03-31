@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="url" value="the-internet.herokuapp.com/basic_auth" />
+	<parameter name="browserName" value="Chrome" />
+	<parameter name="username" value="admin" />
+	<parameter name="password" value="admin" />
+	<parameter name="sleeptime" value="3000" />
+
+	<test name="Test_001" enabled ="true">
+	<parameter name="browserName" value="Chrome" />
+		<classes>
+			<class name="SeleniumDayChallenge.Day1_BypassBrowserAuth" >
+				<methods>
+					<include name="process" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="Test_002" enabled ="true">
+		<parameter name="browserName" value="Edge" />
+		<classes>
+			<class name="SeleniumDayChallenge.Day1_BypassBrowserAuth">
+				<methods>
+					<include name="process" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!--
+Suite -->
