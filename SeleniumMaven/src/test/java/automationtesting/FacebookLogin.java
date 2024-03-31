@@ -2,7 +2,6 @@ package automationtesting;
 
 import java.io.File;
 import java.time.Duration;
-import java.util.Timer;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;

@@ -1,7 +1,7 @@
 package SeleniumDayChallenge;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.DataProvider;
+
 
 public class CallingDataProvider {
   @Test(dataProvider = "getData", dataProviderClass =  ExcelDataReading.class)

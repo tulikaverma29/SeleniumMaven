@@ -30,8 +30,8 @@ public class FacebookRegistration {
 		driver.findElement(By.xpath("//a[text()='Create new account']")).click();
 		// Comment - driver.findElement(By.name("locator")).sendKeys("data") ;
 		Thread.sleep(3000);
-		driver.findElement(By.name("firstname")).sendKeys("TestFNAME");
-		driver.findElement(By.name("lastname")).sendKeys("TestLNAME");
+		driver.findElement(By.name("firstname")).sendKeys("TestFname");
+		driver.findElement(By.name("lastname")).sendKeys("TestLname");
 		driver.findElement(By.name("reg_email__")).sendKeys("323-323-2343");
 		driver.findElement(By.name("reg_passwd__")).sendKeys("fgdgd4r2342532532");
 
