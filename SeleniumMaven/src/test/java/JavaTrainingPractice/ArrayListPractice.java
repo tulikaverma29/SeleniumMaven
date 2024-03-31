@@ -12,7 +12,7 @@ public class ArrayListPractice {
 	list.add("Kunal");
 	list.add("Kairav");
 	list.add(null);
-	list.add("Kairav");
+	list.add("Kairav1");
 	System.out.println(list);
 	Iterator<String> itr = list.iterator();
 	
