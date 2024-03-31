@@ -1,17 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-29T16:51:00 EDT" name="Default suite" finished-at="2024-03-29T16:51:14 EDT" duration-ms="14508">
+  <suite started-at="2024-03-31T19:40:17 EDT" name="Suite" finished-at="2024-03-31T19:40:37 EDT" duration-ms="20219">
     <groups>
     </groups>
-    <test started-at="2024-03-29T16:51:00 EDT" name="Default test" finished-at="2024-03-29T16:51:14 EDT" duration-ms="14508">
-      <class name="automationtesting.FacebookLogin">
-        <test-method signature="facebookLoginMethod()[pri:0, instance:automationtesting.FacebookLogin@8dbdac1]" started-at="2024-03-29T16:51:00 EDT" name="facebookLoginMethod" finished-at="2024-03-29T16:51:14 EDT" duration-ms="14486" status="PASS">
+    <test started-at="2024-03-31T19:40:17 EDT" name="Test_001" finished-at="2024-03-31T19:40:27 EDT" duration-ms="10047">
+      <class name="SeleniumDayChallenge.Day1_BypassBrowserAuth">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Long)[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@223191a6]" started-at="2024-03-31T19:40:17 EDT" name="Setup" finished-at="2024-03-31T19:40:27 EDT" duration-ms="9823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[the-internet.herokuapp.com/basic_auth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebookLoginMethod -->
-      </class> <!-- automationtesting.FacebookLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Setup -->
+        <test-method signature="process()[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@223191a6]" started-at="2024-03-31T19:40:27 EDT" name="process" finished-at="2024-03-31T19:40:27 EDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@223191a6]" started-at="2024-03-31T19:40:27 EDT" name="teardown" finished-at="2024-03-31T19:40:27 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumDayChallenge.Day1_BypassBrowserAuth -->
+    </test> <!-- Test_001 -->
+    <test started-at="2024-03-31T19:40:27 EDT" name="Test_002" finished-at="2024-03-31T19:40:37 EDT" duration-ms="10160">
+      <class name="SeleniumDayChallenge.Day1_BypassBrowserAuth">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Long)[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@5656be13]" started-at="2024-03-31T19:40:27 EDT" name="Setup" finished-at="2024-03-31T19:40:36 EDT" duration-ms="8814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[the-internet.herokuapp.com/basic_auth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="process()[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@5656be13]" started-at="2024-03-31T19:40:36 EDT" name="process" finished-at="2024-03-31T19:40:36 EDT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumDayChallenge.Day1_BypassBrowserAuth@5656be13]" started-at="2024-03-31T19:40:36 EDT" name="teardown" finished-at="2024-03-31T19:40:37 EDT" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumDayChallenge.Day1_BypassBrowserAuth -->
+    </test> <!-- Test_002 -->
+  </suite> <!-- Suite -->
 </testng-results>
