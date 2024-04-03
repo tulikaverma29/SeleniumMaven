@@ -109,6 +109,7 @@ DriverQuit();
 		SimpleDateFormat dtFormat = new SimpleDateFormat("dd MMM yyyy");
 		expectedMap.put("Birthdate", dtFormat.format(java.sql.Date.valueOf(dtbirthDate)));
 		
+		System.out.println(dtFormat.format(java.sql.Date.valueOf(dtbirthDate)));
 		enterAddress("Address1", "Address2", "Novi", "Michigan", "USA", "42342");
 		enterPhone("345-366-3474");
 		enterRelation("Doctor", "XYZ");
