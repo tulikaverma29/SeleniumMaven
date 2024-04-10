@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumDayChallenge.CallingDataProvider">
+      <class name="automationProject.OPENMRS_APPSCHEDULE_NEWSERVICE">
         <methods>
-          <include name="fetch"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- SeleniumDayChallenge.CallingDataProvider -->
+      </class> <!-- automationProject.OPENMRS_APPSCHEDULE_NEWSERVICE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
